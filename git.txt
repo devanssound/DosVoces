@@ -1,0 +1,11 @@
+git add .
+
+git add filename1 filename2
+
+git commit -m "commit" 
+
+git push origin main
+
+Replace `main` with the name of the branch you want to push to.
+   
+git branch -a
