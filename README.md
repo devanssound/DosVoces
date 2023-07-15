@@ -1,54 +1,32 @@
 # DosVoces
-DosVoces
+DosVoces    
 
-Creating a Django application like DosVoces involves several components. Here's a high-level breakdown of the files and directories you might have in your project:
+# DosVoces Rules and Guidelines
 
-manage.py: This is a command-line utility that lets you interact with your project in various ways. It gets created when you start a new Django project.
+Welcome to DosVoces, a polling web application. To ensure a positive and respectful community, we ask all users to follow these rules and guidelines.
 
-db.sqlite3: This is the database file for your project if you're using SQLite, which is Django's default database.
+## 1. Respect Others
 
-DosVoces/: This directory is the Python package for your project. It's the container for your project and its name is the Python package name you’ll need to use to import anything inside it.
+Treat all users with respect. No harassment, bullying, or threatening of individuals or groups.
 
-DosVoces/__init__.py: This empty file tells Python that this directory should be considered a Python package.
+## 2. No Offensive Content
 
-DosVoces/settings.py: This file contains all the settings for your Django project.
+Do not post content that is offensive, obscene, violent, or inappropriate. This includes but is not limited to content that is racist, sexist, homophobic, or discriminatory in any way.
 
-DosVoces/urls.py: This file is a table of contents for your Django-powered site. It's where you define the mapping between URLs and views.
+## 3. No Spam
 
-DosVoces/asgi.py or DosVoces/wsgi.py: These files are entry-points for ASGI-compatible web servers and WSGI-compatible web servers to serve your project.
+Do not post spam. This includes but is not limited to unsolicited advertisements, repetitive posts, or irrelevant content.
 
-polls/: This directory will contain your polls application that you'll create.
+## 4. Stay On Topic
 
-polls/models.py: This file is where you'll define the data models for your polls application.
+Keep your posts relevant to the topic of the poll. Off-topic posts may be removed.
 
-polls/views.py: This file is where you'll handle the request/response logic for your polls application.
+## 5. No Manipulation
 
-polls/urls.py: This file is where you'll define the URLs for your polls application.
+Do not attempt to manipulate the results of polls, such as by creating multiple accounts or using bots.
 
-polls/templates/: This directory is where you'll store the HTML templates for your polls application.
+Failure to adhere to these rules and guidelines may result in your posts being removed or your account being suspended or banned. These rules and guidelines are subject to change, and we reserve the right to remove any content or suspend any user at our discretion.
 
-polls/static/: This directory is where you'll store the static files (like CSS or JavaScript) for your polls application.
+Thank you for helping to create a positive and respectful community!
 
-polls/forms.py: This file is where you'll define the forms for your polls application.
-
-polls/tests.py: This file is where you'll write tests for your polls application.
-
-users/: This directory will contain your user management application.
-
-users/models.py: This file is where you'll define the data models for your user management application.
-
-users/views.py: This file is where you'll handle the request/response logic for your user management application.
-
-users/urls.py: This file is where you'll define the URLs for your user management application.
-
-users/templates/: This directory is where you'll store the HTML templates for your user management application.
-
-users/forms.py: This file is where you'll define the forms for your user management application.
-
-users/tests.py: This file is where you'll write tests for your user management application.
-
-This is a high-level overview and the actual implementation might require additional files or modifications based on your specific needs. For example, you might want to add a tags application to handle tagging, or a comments application to handle comments.
-
-As for the searchable and taggable features, Django provides a robust database querying API that you can use to implement searching. For tagging, you can use a package like django-taggit.
-
-Remember, building a web application is a big task, especially if you're new to programming. It's okay to start small and gradually add more features as you learn. Good luck with your project!
+[]: # Path: DosVoces/README.md

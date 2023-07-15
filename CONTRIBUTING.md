@@ -1,0 +1,1 @@
+This file provides instructions for people who want to contribute to the project. It might include coding standards, instructions for submitting pull requests, and other guidelines.

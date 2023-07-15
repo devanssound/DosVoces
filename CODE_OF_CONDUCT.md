@@ -1,0 +1,1 @@
+This file outlines the expectations for participation in your community, as well as the steps for reporting unacceptable behavior.

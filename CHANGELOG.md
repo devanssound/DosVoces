@@ -1,0 +1,1 @@
+This file contains a curated, chronologically ordered list of notable changes for each version of a project.
