@@ -1,1 +1,0 @@
-If your project provides an API, you might have a file like this to document how to use it.
