@@ -1,4 +1,4 @@
-# 🌐 DosVoces 🌐
+# DosVoces 🌐
 
 DosVoces is an engaging polling web application that encourages the sharing of perspectives through polls. Users can create, participate, and discuss polls on a wide range of topics. Built with love using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
 
