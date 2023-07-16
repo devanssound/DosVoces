@@ -1,6 +1,6 @@
 # 🛠️ Developer Guide for DosVoces
 
-This document provides an overview of the DosVoces project, including its goals, architecture, and development practices, as well as guidance for interacting with the project's AI assistant.
+This document provides an overview of the DosVoces project, including its goals, architecture, development practices, and recommended technologies.
 
 ## 🎯 Project Goals
 
@@ -14,36 +14,40 @@ The key goals of the DosVoces project are:
 
 ## 🏗️ Architecture
 
-DosVoces is built using the MERN stack:
+DosVoces is built using the following technologies and architectural patterns:
 
 - MongoDB: a NoSQL database used for storing poll data, user accounts, and other application data.
 - Express.js: a back-end web application framework running on Node.js.
 - React.js: a JavaScript library for building the application's user interface.
 - Node.js: the JavaScript runtime enabling back-end development in JavaScript.
 
-Additional technologies used in the project include Passport.js for authentication, Helmet.js for secure HTTP headers, and Ngrok for creating secure tunnels to the local development environment.
+In addition to the core technologies, the project incorporates the following:
 
-The project also incorporates several measures to prevent bot spamming and ensure genuine user interactions, including rate limiting and CAPTCHA.
+- Passport.js: for authentication and user management.
+- Helmet.js: for securing HTTP headers and enhancing application security.
+- Ngrok: for creating secure tunnels to the local development environment.
+
+The architecture follows best practices for building scalable and maintainable web applications. It emphasizes modularity, separation of concerns, and security.
 
 ## 🔄 Development Practices
 
 The DosVoces project follows standard web development best practices, including:
 
-- Using Git for version control.
-- Writing unit, integration, and end-to-end tests.
-- Regularly reviewing and refactoring code to maintain code quality.
-- Following the Contributor Covenant Code of Conduct in all project interactions.
+- Using Git for version control, with a clear branching strategy and meaningful commit messages.
+- Writing unit tests, integration tests, and end-to-end tests to ensure code quality and functionality.
+- Regularly reviewing and refactoring code to maintain a clean and maintainable codebase.
+- Following the Contributor Covenant Code of Conduct in all project interactions to create a respectful and inclusive development community.
 
 ## 🤖 Interacting with the AI Assistant
 
-The project uses a GPT-based AI assistant to aid in development. The assistant can be used for a variety of tasks, including troubleshooting, brainstorming design ideas, and generating code snippets.
+The DosVoces project incorporates a GPT-based AI assistant to aid in development tasks. The assistant can be used for troubleshooting, brainstorming design ideas, and generating code snippets.
 
-When interacting with the AI assistant, it's important to provide clear, detailed prompts. The assistant's knowledge is based on a broad training dataset, but it does not have access to specific information about the DosVoces project unless it is provided in the prompt or previous conversation.
+When interacting with the AI assistant, it's important to provide clear and detailed prompts. The assistant's responses should be reviewed and potentially modified by a human developer before being incorporated into the project.
 
-Here are some examples of prompts you might use with the AI assistant:
+Examples of prompts to use with the AI assistant include:
 
-- "Can you help me troubleshoot a problem with my Express.js router?"
-- "What are some ways I could improve the user interface of my polling application?"
-- "Could you generate a code snippet showing how to implement user authentication with Passport.js?"
+- "Can you help me troubleshoot an issue with my React component?"
+- "What are some best practices for securing user data in the DosVoces application?"
+- "Could you generate a code snippet for implementing a RESTful API endpoint in Express.js?"
 
-Remember that the AI assistant's responses should be reviewed and potentially modified by a human developer before being incorporated into the project.
+Remember to leverage the AI assistant as a helpful tool, but always validate and verify its responses before implementing them in your project.

@@ -29,4 +29,4 @@ This project is licensed under [MIT](https://choosealicense.com/licenses/mit/).
 
 ## 👥 Authors
 
-- [DME](https://github.com/devanssound/DosVoces)
+- [DME](https://github.com/devanssound)
