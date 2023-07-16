@@ -17,15 +17,11 @@ DosVoces is an engaging polling web application that encourages the sharing of p
 
 ## 🚀 Usage
 
-To run the server, use the following command:
-
 <!-- TODO: Add server command -->
-
-Then, open your browser and go to `http://localhost:8000/`.
 
 ## 🤝 Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss changes.
 
 ## 📜 License
 
