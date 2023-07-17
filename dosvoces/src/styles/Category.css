@@ -1,0 +1,16 @@
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .category {
+    flex-basis: 200px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

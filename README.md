@@ -20,6 +20,17 @@ DosVoces - Social Voting app, polls from all types of people for everything. Cre
 ## 🚀 Usage
 
 <!-- TODO: 
+# Clone the repository
+git clone <your-repository-url>
+
+# Navigate to the directory
+cd <your-repository-name>
+
+# Install dependencies
+npm install
+
+# Start the app
+npm start
  -->
 
 ## 🤝 Contributing
