@@ -1,0 +1,62 @@
+/* main.css */
+
+/* Define CSS custom properties */
+:root {
+    --primary-color: #212121;
+    --secondary-color: #f4f4f4;
+    --accent-color: #ff4081;
+    --font-stack: Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-stack);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: var(--accent-color);
+}
+
+p {
+    color: var(--primary-color);
+}
+
+form {
+    margin-top: 1em;
+}
+
+input[type="search"] {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 0.5em;
+}
+
+input[type="submit"] {
+    padding: 0.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--primary-color);
+}
